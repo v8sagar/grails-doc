@@ -1,6 +1,6 @@
-Automated testing is a key part of Grails. Hence, Grails provides many ways to making testing easier from low level unit testing to high level functional tests. This section details the different capabilities that Grails offers for testing.
+Automated testing is a key part of Grails. Hence, Grails provides many ways to making testing easier from low-level unit testing to high-level functional tests. This section details the different capabilities that Grails offers for testing.
 
-The first thing to be aware of is that all of the `create-\*` and `generate-\*` commands create `unit` or `integration` tests automatically. For example if you run the link:../ref/Command%20Line/create-controller.html[create-controller] command as follows:
+The first thing to be aware of is that all of the `create-\*` and `generate-\*` commands create `unit` or `integration` tests automatically. For example, if you run the link:../ref/Command%20Line/create-controller.html[create-controller] command as follows:
 
 [source,groovy]
 ----
@@ -32,7 +32,7 @@ Running test FooTests...FAILURE
 Unit Tests Completed in 464ms ...
 -------------------------------------------------------
 
-Tests failed: 0 errors, 1 failures
+Tests failed: 0 errors, 1 failure
 ----
 
 whilst showing the reason for each test failure.
@@ -82,7 +82,7 @@ or to run all tests in a package...
 grails test-app some.org.*
 ----
 
-or to run all tests in a package including subpackages...
+or to run all tests in a package including sub packages...
 
 [source,groovy]
 ----
@@ -126,7 +126,7 @@ NOTE: This differs from Grails 2.3 and previous, where the `grails-debug` comman
 ==== Targeting Test Phases
 
 
-In addition to targeting certain tests, you can also target test _phases._ By default Grails has two testing phases `unit` and `integration.`
+In addition to targeting certain tests, you can also target test _phases._ By default, Grails has two testing phases `unit` and `integration.`
 
 NOTE: Grails 2.x uses `phase:type` syntax. In Grails 3.0 it was removed, because it made no sense in Gradle context.
 
